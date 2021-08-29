@@ -1,21 +1,37 @@
 
 element {
-    --main-color: red;
-    --secondary-color: yellow;
-    --third-color: blue;
+    --main-color: lightblue;
+    --secondary-color: antiquewhite;
+    --third-color: violet;
+    --fourth-color: purple;
 }
 
 :root {
-    --main-color: red;
-    --secondary-color: yellow;
-    --third-color: blue;
+    --main-color: lightblue;
+    --secondary-color: antiquewhite;
+    --third-color: violet;
+}
+
+/* dog 🐶 🐕*/
+
+/* cat 🐈 🐈‍⬛*/
+
+/* 🦄  ❤️‍🩹  */
+body {
+    color: var(--third-color);
+    background-color: var(--secondary-color);
+
 }
 
 
-
-
-body {
-    color: var(--main-color);
-    background-color: var(--secondary-color);
-
+header {
+    padding: 25px 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding: 20px 30px 20px 30px;
+    background-color: var(--main-color);
+    border: 15px solid var(--third-color);
+    border-style: solid var(--third-color);
 }
