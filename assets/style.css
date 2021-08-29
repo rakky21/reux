@@ -1,0 +1,21 @@
+
+element {
+    --main-color: red;
+    --secondary-color: yellow;
+    --third-color: blue;
+}
+
+:root {
+    --main-color: red;
+    --secondary-color: yellow;
+    --third-color: blue;
+}
+
+
+
+
+body {
+    color: var(--main-color);
+    background-color: var(--secondary-color);
+
+}
