@@ -35,3 +35,12 @@ header {
     border: 15px solid var(--third-color);
     border-style: solid var(--third-color);
 }
+
+.pet {
+text-align: left;
+}
+
+.pet img {
+    width: 8%;
+    float: left;
+}
