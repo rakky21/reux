@@ -1,15 +1,18 @@
 
 element {
-    --main-color: lightblue;
-    --secondary-color: antiquewhite;
+    --main-color: darkcyan;
+    --secondary-color: lightblue;
     --third-color: violet;
     --fourth-color: purple;
+    --fifth-color: white;
 }
 
 :root {
-    --main-color: lightblue;
-    --secondary-color: antiquewhite;
+    --main-color:darkcyan;
+    --secondary-color: lightblue;
     --third-color: violet;
+    --fourth-color: purple;
+    --fifth-color: white;
 }
 
 /* dog 🐶 🐕*/
@@ -17,11 +20,14 @@ element {
 /* cat 🐈 🐈‍⬛*/
 
 /* 🦄  ❤️‍🩹  */
+
+
 body {
     color: var(--third-color);
     background-color: var(--secondary-color);
 
 }
+
 
 
 header {
@@ -36,11 +42,48 @@ header {
     border-style: solid var(--third-color);
 }
 
+header nav {
+    float: right;
+    margin: 5px o;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 35px;
+    color: var(--fourth-color);
+    margin: 0;
+    display: inline;
+}
+
+header nav ul li {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 25px;
+    display: inline;
+}
+
+
+
 .pet {
 text-align: left;
 }
 
 .pet img {
-    width: 8%;
+    width: 15%;
     float: left;
+}
+
+.pet {
+    width: 950px;
+    margin: 0 auto 30px auto;
+    background-color: var(--fifth-color) ;
+    overflow: auto;
+}
+.pet h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.container pet {
+    display: flex;
 }
