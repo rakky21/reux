@@ -1,19 +1,19 @@
 
 element {
     --main-color: darkcyan;
-    --secondary-color: lightblue;
+    --secondary-color: white;
     --third-color: violet;
     --fourth-color: purple;
-    --fifth-color: white;
+    --fifth-color: lightblue;
     --sixth-color: darkmagenta;
 }
 
 :root {
     --main-color:darkcyan;
-    --secondary-color: lightblue;
+    --secondary-color: white;
     --third-color: violet;
     --fourth-color: purple;
-    --fifth-color: white;
+    --fifth-color: lightblue;
     --sixth-color: darkmagenta;
 }
 
@@ -27,8 +27,6 @@ element {
 
 /* cat 🐈 🐈‍⬛*/
 
-/* 🦄  ❤️‍🩹  */
-
 
 body {
     color: var(--third-color);
@@ -37,10 +35,12 @@ body {
 
 }
 
-
+.container {
+    display: flex;
+}
 
 header {
-    padding: 25px 40px;
+    padding: 20px 35px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 5px;
@@ -82,14 +82,79 @@ header ul li a {
     float: right;
 }
 
+.headerimage {
+    width: fit-content;
+    background: cover;
+
+}
 
 
-.pet {
-    width: 950px;
-    margin: 0 auto 30px auto;
+
+/* side box */
+.forms {
+    border: solid;
+    width: 250px;
+    margin: 0 auto 2px auto;
     background-color: var(--fifth-color) ;
     overflow: auto;
+    text-align: center;
+    float: right;
 }
+
+.forms div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.forms p {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.forms img {
+    width: 13%;
+    float: left;
+}
+
+
+
+
+
+
+.topheader {
+    padding: 0px;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.intro {
+    padding: 20px 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding: 20px 30px 20px 30px;
+    background-color: var(--main-color);
+    border: 15px solid var(--third-color);
+    border-style: solid var(--third-color);
+}
+
+.pet {
+    border: solid;
+    width: 950px;
+    margin: 0 auto 2px auto;
+    background-color: var(--fifth-color) ;
+    overflow: auto;
+    text-align: center;
+}
+
+.pet p {
+    text-align: center;
+    font-size: 20px;
+}
+
 
 .pet img {
     width: 13%;
@@ -107,13 +172,13 @@ header ul li a {
     text-decoration: var(--sixth-color) underline;
     text-decoration-color: var(--sixth-color);
     color: var(--fourth-color);
-    text-align: center;
+    text-align:inherit;
     background-color: var(--main-color);
 }
 
-.container pet {
-    display: flex;
-}
+/* .container pet { */
+    /* display: flex; */
+/* } */
 
 
 
@@ -134,4 +199,6 @@ footer {
 .text-right {
     text-align: right;
 }
+
+
 
